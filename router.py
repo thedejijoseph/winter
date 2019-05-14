@@ -2,7 +2,7 @@ import socket
 import threading
 
 
-# to obey the WET princinple
+# to obey the DRY princinple
 import servers
 logger = servers.make_logger('ROUTER-00')
 

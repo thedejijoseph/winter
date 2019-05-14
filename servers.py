@@ -52,7 +52,7 @@ def make_logger(server_name):
     logger = logging.getLogger(server_name)
     log_format = logging.Formatter('[%(name)s] %(asctime)s | %(message)s')
     
-    f_handler = logging.FileHandler(f'logs\{server_name}.log')
+    f_handler = logging.FileHandler(f'logs/{server_name}.log')
     f_handler.setLevel(10); f_handler.setFormatter(log_format)
 
     c_handler = logging.StreamHandler()

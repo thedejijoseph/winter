@@ -1,7 +1,7 @@
-import servers
 import router
-import clients
+import server
+import client
 
-servers.spurn_servers(3)
 router.start()
-clients.spurn_bots(3)
+server.spurn_servers(3)
+client.spurn_clients(6)

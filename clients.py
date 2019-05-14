@@ -53,8 +53,8 @@ def make_conn(host, port):
 def make_client(host, port):
     return make_conn(host, port)
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
     # spurn x number of client bots
-    for i in range(3):
-        bot = threading.Thread(target=client_bot, args=(i,))
-        bot.start()
+for i in range(3):
+    bot = threading.Thread(target=client_bot, args=(i,))
+    bot.start()
