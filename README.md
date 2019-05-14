@@ -1,7 +1,7 @@
 # winter
 weekend project: simulating a router
 
-all out of curiosity and a need for depper understanding, i build systems out to see how they work internally
+all out of curiosity and a need for deeper understanding, i build systems out to see how they work internally
 
 weekend project, winter, was built to understand how routers work, practically.
 
@@ -14,3 +14,4 @@ simulate a system that receives internet traffic and forwards such to its intend
 
 ## protocol
 system dsign used in router is in ```PROTOCOL.md```
+
